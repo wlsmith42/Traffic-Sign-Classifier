@@ -23,7 +23,7 @@ The goals / steps of this project are the following:
 
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
 
-You're reading it! and here is a link to my [project code](https://github.com/wlsmith42/Traffic-Sign-Classifier/Traffic_Sign_Classifier.ipynb)
+You're reading it! and here is a link to my [project code](https://github.com/wlsmith42/Traffic-Sign-Classifier/blob/master/Traffic_Sign_Classifier.ipynb)
 
 ### Data Set Summary & Exploration
 
@@ -165,12 +165,12 @@ My final model results (calculated in code cell #20 of the jupyter notebook) wer
 Here are five German traffic signs that I found on the web:
 
 <p align="center">
-  <img src="./data/TrafficSigns/img1.jpg" width="200" />
-  <img src="./data/TrafficSigns/img2.jpg" width="200" /> 
-  <img src="./data/TrafficSigns/img3.jpg" width="200" /> 
-  <img src="./data/TrafficSigns/img4.jpg" width="200" />
-  <img src="./data/TrafficSigns/img5.jpg" width="200" /> 
-  <img src="./data/TrafficSigns/img6.jpg" width="200" /> 
+  <img src="./examples/TrafficSigns/img1.jpg" width="200" />
+  <img src="./examples/TrafficSigns/img2.jpg" width="200" /> 
+  <img src="./examples/TrafficSigns/img3.jpg" width="200" /> 
+  <img src="./examples/TrafficSigns/img4.jpg" width="200" />
+  <img src="./examples/TrafficSigns/img5.jpg" width="200" /> 
+  <img src="./examples/TrafficSigns/img6.jpg" width="200" /> 
 </p>
 
 
@@ -198,10 +198,10 @@ The model was able to correctly guess 5 of the 6 traffic signs, which gives an a
 
 The code for making predictions on my final model is located in code cell #24 in the jupyter notebook. 
 
-___
+---
 
 <p align="center">
-  <img src="./data/TrafficSigns/img1.jpg" width="260" />
+  <img src="./examples/TrafficSigns/img1.jpg" width="260" />
 </p>
 
 For the first image, the model is relatively sure that this is a speed limit sign (probability of 0.852), and the image does contain a speed limit sign although it is 30km/h not the predicted 20km/h. The correct prediction was 2nd on the softmax probabilities (probability of 0.148). The top five soft max probabilities were:
@@ -217,10 +217,11 @@ For the first image, the model is relatively sure that this is a speed limit sig
 | 0.000				    | Speed Limit (70km/h)      							 |
 
 </center>
-___
+
+---
 
 <p align="center">
-  <img src="./data/TrafficSigns/img2.jpg" width="260" /> 
+  <img src="./examples/TrafficSigns/img2.jpg" width="260" /> 
 </p>
 
 For the second image, the model is completely sure that this is a bumpy road sign (probability of 1.000), and the image does contain a bumpy road sign. The top five soft max probabilities were:
@@ -236,10 +237,11 @@ For the second image, the model is completely sure that this is a bumpy road sig
 | 0.000				    | Double Curve      							 |
 
 </center>
-___
+
+---
 
 <p align="center"> 
-  <img src="./data/TrafficSigns/img3.jpg" width="260" /> 
+  <img src="./examples/TrafficSigns/img3.jpg" width="260" /> 
 </p>
 
 For the third image, the model is completely sure that this is an ahead only sign (probability of 1.000), and the image does contain an ahead only sign. The top five soft max probabilities were:
@@ -256,10 +258,11 @@ For the third image, the model is completely sure that this is an ahead only sig
 | 0.000				    | Speed Limit (60km/h)      							 |
 
 </center>
-___
+
+---
 
 <p align="center">
-  <img src="./data/TrafficSigns/img4.jpg" width="260" />
+  <img src="./examples/TrafficSigns/img4.jpg" width="260" />
 </p>
 
 For the fourth image, the model is completely sure that this is a no vehicles sign (probability of 1.000), and the image does contain a no vehicles sign. The top five soft max probabilities were:
@@ -275,10 +278,11 @@ For the fourth image, the model is completely sure that this is a no vehicles si
 | 0.000				    | Keep Right      							 | 
 
 </center>
-___
+
+---
 
 <p align="center">
-  <img src="./data/TrafficSigns/img5.jpg" width="260" />
+  <img src="./examples/TrafficSigns/img5.jpg" width="260" />
 </p>
 
 For the fifth image, the model is completely sure that this is a go straight or left sign (probability of 1.000), and the image does contain a go straight or left sign. The top five soft max probabilities were:
@@ -294,10 +298,11 @@ For the fifth image, the model is completely sure that this is a go straight or 
 | 0.000				    | Speed Limit (60km/h)      							 |
 
 </center>
-___
+
+---
 
 <p align="center"> 
-  <img src="./data/TrafficSigns/img6.jpg" width="260" /> 
+  <img src="./examples/TrafficSigns/img6.jpg" width="260" /> 
 </p>
 
 For the sixth image, the model is completely sure that this is a general caution sign (probability of 1.000), and the image does contain a general caution sign. The top five soft max probabilities were:
